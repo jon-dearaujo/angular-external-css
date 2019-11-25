@@ -1,0 +1,9 @@
+.blue-background {
+	/* Needs the important because the App is already setting the color for .blue-background elements */
+	background-color: blue !important;
+}
+
+.blue-background span {
+	color: white !important;
+	text-transform: uppercase;
+}
