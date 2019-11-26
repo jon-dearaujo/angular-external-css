@@ -3,10 +3,11 @@ import { NgModule, ApplicationRef } from '@angular/core';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { environment } from 'src/environments/environment';
+import { MyCoolComponent } from './my-cool.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent, MyCoolComponent
   ],
   imports: [
     BrowserModule, HttpClientModule

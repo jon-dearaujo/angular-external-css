@@ -7,3 +7,22 @@
 	color: white !important;
 	text-transform: uppercase;
 }
+
+.myCoolElement {
+	position: fixed;
+	top: 80px;
+	left: 100px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 300px;
+	min-height: 50px;
+	background-color: lightseagreen;
+	border-radius: 50%;
+}
+
+.myCoolElement span {
+	color: white;
+	font-weight: 700;
+	text-transform: capitalize;
+}
